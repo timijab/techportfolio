@@ -1,0 +1,293 @@
+
+.isaac_img{
+    width: 85%;
+}
+
+.MainNav{
+    padding-left: 30px;
+}
+
+.name{
+    padding-top: 30px;
+}
+.last_part{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*dont know if working tho*/
+@media (min-width: 1200px){
+    .name{
+        flex: auto;
+        width: 50%;
+    }
+}
+.professional{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 300;
+    text-align: justify;
+    max-width: none;
+    padding-left: inherit;
+    padding-right:inherit;
+}
+#work{
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+.Education{
+    text-align: center;
+    font-weight: 300;
+    color: #401F71;
+}
+
+.skills{
+    font-weight: 300;
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+.skilled{
+
+}
+.cta{
+    color: white;
+    font-family:'Gentium Plus', serif;
+    font-weight: 300;
+}
+.end{
+    background-color: #371B58;
+    padding-bottom: 20px;
+}
+#bb{
+    background-color: #51557D;
+}
+.middle{
+    text-align: justify;
+}
+
+.portfolio{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.web{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.web:hover {
+    transform: scale(1.1) !important; /* Scale the image to 110% when hovered */
+    cursor: pointer !important;
+}
+
+.online, .Company, .Church{
+    width: 25%;
+    margin: auto;
+}
+
+.online{
+    margin-left: 0px;
+    margin-top: 1.906px;
+}
+
+.prof{
+    color:#401F71;
+}
+#port{
+    color: #401F71;
+}
+.tech{
+    color: #401F71;
+}
+
+@media (min-width: 579px) {
+    .right{
+        padding-left: 20%;
+    }
+}
+.tol{
+    margin: 0px;
+    padding: 0px;
+}
+.edu{
+    margin: auto;
+    padding-left: 10%;
+    text-align: justify;
+    padding-right: 10%;
+}
+.portfo{
+    color: #401F71;
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+.space{
+    padding-top: 10px;
+}
+.profileimage{
+    padding-top: 10px;
+    margin: 0px;
+    padding-left: 10%;
+}
+.set{
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.fa-brands{
+    font-size: xx-large;
+}
+#icons{
+    margin: auto;
+}
+.skillnorm{
+    color: #401F71;
+}
+#react{
+    color: #7AA2E3;
+    margin: auto;
+}
+#js{
+    margin: auto;
+}
+
+#node{
+    padding-left: 10px;
+    padding-right: 10px;
+    color:white ;
+    background-color: black;
+    margin: auto
+}
+
+#python{
+    margin: auto;
+}
+.checkout{
+    margin-top: 10px;
+    width: -webkit-fill-available;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px;
+    color: white;
+    background-color: teal;
+}
+.checkout:hover{
+    background-color: white ;
+    color: teal;
+    border-color: teal;
+    border-width: 30px;
+    border-bottom: solid;
+}
+.checkoutcompany{
+    width: -webkit-fill-available;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px;
+    color: #FFAF45;
+    background-color:#430A5D;
+}
+.checkoutcompany:hover{
+    color: white;
+    border-bottom: solid;
+    border-bottom: #430A5D;
+}
+
+.checkoutchurch{
+    width: -webkit-fill-available;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px;
+    color: white;
+    background-color: #00224D;
+}
+.checkoutchurch:hover{
+    color: black;
+    background-color: #DFF5FF;
+    border-bottom: solid;
+}
+
+.master, .bachelor{
+    font-family: 'Gentium Plus', serif;
+    color: #401F71;
+}
+.firsttest{
+    display: flex;
+    
+}
+.secondtest{
+    display: flex;
+}
+
+#divine, #tosin, #korede, #florence{
+    border-radius: 100%;
+    width: 15%;
+    
+}
+
+.secondimage{
+    margin: auto;
+    text-align: center;
+}
+.firstimage{
+    margin: auto;
+    text-align: center;
+}
+.text-center{
+    padding-top: 20px;
+}
+.testimony{
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+}
+.names{
+    color: #FFAF45;
+}
+@media (max-width: 954px) {
+    .portfolio{
+        display:block;
+    }
+    .online{
+        margin:auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .Company{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .Church{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 496px) {
+    .middle{
+
+    }
+}
+.particles-js-canvas-el{
+    position: absolute;
+    z-index: -1;
+}
+.fa-star{
+    color: #FFAF45;
+}
+
+#port:hover{
+    cursor: pointer;
+} 
+.skillnorm:hover{
+    cursor: pointer;
+}
+.churchport:hover{
+    cursor: pointer;
+}

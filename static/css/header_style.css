@@ -1,0 +1,49 @@
+body{
+    font-family: 'Gentium Plus', serif;
+}
+.logo{
+    width: 60px;
+    height: 40px;
+    border-radius: 100%;
+}
+.MainNav{
+    padding-left: 30px;
+}
+.container-fluid{
+       padding-left: 15%;
+       padding-right: 15%;
+}
+#sub1, #sub2, #sub3, #sub4, #sub5, #sub6{
+    padding-left: 30px;
+    padding-right:30px;
+
+}
+#button_nav{
+    background-color: #242F9B;
+    color: white;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.visible{
+    display: block;
+}
+
+.fa-solid:hover{
+    cursor: pointer;
+}
+.fa-solid{
+    padding-right: 10px;
+    color: #401F71;
+}
+/* css styling for dark mode */
+.dark-mode{
+    background-color: #0C0C0C !important;
+    color: white;
+}
+
+.text-light{
+    color: white !important;
+}

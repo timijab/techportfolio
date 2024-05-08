@@ -35,3 +35,8 @@ if (screen){
     text.classList.add('dark-contact');
 
 }
+var Navbarbutton = document.querySelector('.navbar-toggler-icon');
+Navbarbutton.addEventListener('click', function() {
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+    navbarCollapse.classList.toggle('show');
+});

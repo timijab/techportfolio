@@ -2,6 +2,9 @@
 
 This is my tech portfolio, showcasing my skills and projects. It's built using Python Flask for the backend and JavaScript, HTML, and CSS for the frontend.
 
+It is hosted on a free Sub Domain on render, may require some extra seconds loading time to wakeup the server.
+
+Portfolio link [https://techportfolio.onrender.com/]
 
 - **Contact Information:** afolayantimilola880@gmail.com.
 

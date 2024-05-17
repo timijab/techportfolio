@@ -83,12 +83,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
 function changeImage(){
-    document.querySelector('.isaac_img').src = '../static/image/PREACHER  NAME (1).png';
+    document.querySelector('.isaac_img').src = '../static/image/profile picture.png';
 }
 function revertImage(){
-    document.querySelector('.isaac_img').src = '../static/image/PREACHER__NAME-removebg-preview.png';
+    document.querySelector('.isaac_img').src = '../static/image/profile black.png';
 }
 
 
